@@ -1,0 +1,36 @@
+.navbar-profile-pic img{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    display:flex;
+    vertical-align: middle;
+    margin: 0 auto;
+    border: 1px solid rgba(153, 213, 228, 0.878);
+}
+.nav-item {
+    color: rgb(59, 203, 177);
+    /* margin-top: 30px; */
+    margin-left: 55px;
+  }
+  .nav-link {
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .nav-link svg {
+    margin-right: 10px;
+  }
+  .nav-link:hover {
+    color: #f29f67;
+  }
+  
+  .nav-link .active {
+    color: #f29f67;
+    border-left: 5px solid #f29f67;
+    padding-left: 10px;
+    text-decoration: none;
+  }
+    /* .nav-items{
+        text-align: center;
+    } */

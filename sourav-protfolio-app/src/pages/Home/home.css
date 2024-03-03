@@ -1,0 +1,123 @@
+.home-container{
+    height: 300px;
+    color: aliceblue;
+    /* padding-left: 100px;  */
+    
+    
+}
+.home-content h1 {
+    /* color: #e0b50f; */
+    
+     
+     margin-left: 120px; 
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #caf040;
+    
+  }
+  .home-content h2 {
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 120px; 
+    padding-top: 11px;
+    /* margin-left: 150px; */
+  }
+  .home-content h3{
+     text-align: center;
+     margin-left: 150px;
+     color: aqua;
+     font-weight: bold;
+  }
+  .albert{
+    color: rgba(205, 226, 233, 0.874);
+  }
+  .home-buttons {
+     margin-left: 150px; 
+    margin-top: 30px;
+  }
+  
+  .home-buttons .btn-hire {
+    background-color: rgb(16, 165, 224);
+    color: white;
+    width: 160px;
+    font-weight: bold;
+  }
+  .home-buttons .btn-hire:hover {
+    background-color: white;
+    color: #3b8ff3;
+    width: 200px;
+    transition: 1s;
+  }
+  
+  .home-buttons .btn-cv {
+    background-color: #f29f67;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  
+  .home-buttons .btn-cv:hover {
+    opacity: 80%;
+    transition: 1s;
+  }
+  .theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+  }
+  @media (max-width: 600px) {
+    .home-container {
+      padding: 0;
+      margin: 0;
+      margin-top: 50px;
+      width:100%;
+      height: 300px;
+    }
+    .home-container h2 {
+      font-size: 20px;
+      margin-left: auto;
+    }
+    .home-container h1 {
+      font-size: 20px;
+      margin-left: auto;
+    }
+    .home-container h3 {
+      font-size: 20px;
+      margin-left: 5px;
+       /* display: none;  */
+       
+     
+    }
+    .home-buttons {
+      margin-left: 10px; 
+     margin-top: 20px;
+   }
+   .home-buttons{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .home-buttons .btn-cv {
+    background-color: #f29f67;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    max-width: fit-content;
+  }
+  .theme-btn {
+    margin-top: 0;
+  }
+  
+  }
+  
